@@ -1,72 +1,44 @@
 <template>
-  <div class="container">
-    <div>
-      <logo />
-      <h1 class="title">
-        vbm
-      </h1>
-      <h2 class="subtitle">
-        website of a repair company
-      </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
-    </div>
-  </div>
+  <section class="page">
+  	<h2 class="page__content-title content-title">Главная</h2>
+
+  	<p class="page__text">
+  		Компания ООО "ВИБРОБУРМАШ" рада приветствовать Вас на своем официальном сайте!
+  		Здесь Вы можете ознакомиться с нашей продукцией, а также узнать наши контакты и реквизиты.
+  		Если возникли вопросы, звоните. Наши специалисты проконсультируют Вас и помогут подобрать
+  		наиболее оптимальное решение.
+  	</p>
+  </section>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
-
 export default {
-  components: {
-    Logo
-  }
 }
 </script>
 
-<style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
+<style lang="scss" scoped>
+@import '@/assets/scss/utils/_variables.scss';
+@import '@/assets/scss/utils/_mixins.scss';
+.page {
+	@include main-content();
 
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
+	&__text {
+		padding: 10px 0;
+		line-height: 1.3;
+		text-align: justify;
+		text-indent: 25px;
 
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
+		&:nth-of-type(1) {
+			margin-top: 10px;
+		}
+	}
 
-.links {
-  padding-top: 15px;
+	&__slider.theme-bar {
+		margin : 15px auto;
+		width  : 576px;
+		height : auto;
+
+		border : 1px solid $lightGray;
+	}
 }
 </style>

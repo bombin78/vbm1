@@ -1,55 +1,39 @@
 <template>
-  <div>
-    <nuxt />
+  <div class="wrapper">
+    <div class="header-container">
+      <!-- шапка сайта -->
+        <vbm-header />
+      <!-- /шапка сайта -->
+    </div>
+    <div class="content-container">
+      <div class="content-container__block">
+        <!-- боковая панель -->
+          <vbm-sidebar />
+        <!-- /боковая панель -->
+        <!-- основной контент -->
+        <nuxt />
+        <!-- /основной контент -->
+      </div>
+  	</div>
+    <div class="footer-container">
+      <div class="footer-container__block">
+        <!-- подвал сайта-->
+          <vbm-footer />
+        <!-- /подвал сайта-->
+      </div>
+    </div>
   </div>
 </template>
 
-<style>
-html {
-  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif;
-  font-size: 16px;
-  word-spacing: 1px;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  box-sizing: border-box;
+<script>
+import VbmHeader from '@/components/Header';
+import VbmSidebar from '@/components/Sidebar';
+import VbmFooter from '@/components/Footer';
+export default {
+  components: {
+    VbmHeader,
+    VbmSidebar,
+    VbmFooter
+  },
 }
-
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-  margin: 0;
-}
-
-.button--green {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #3b8070;
-  color: #3b8070;
-  text-decoration: none;
-  padding: 10px 30px;
-}
-
-.button--green:hover {
-  color: #fff;
-  background-color: #3b8070;
-}
-
-.button--grey {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #35495e;
-  color: #35495e;
-  text-decoration: none;
-  padding: 10px 30px;
-  margin-left: 15px;
-}
-
-.button--grey:hover {
-  color: #fff;
-  background-color: #35495e;
-}
-</style>
+</script>
