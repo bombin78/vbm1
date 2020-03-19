@@ -8,11 +8,17 @@
   		Если возникли вопросы, звоните. Наши специалисты проконсультируют Вас и помогут подобрать
   		наиболее оптимальное решение.
   	</p>
+
+    <vbm-slider class="page__slider"/>
   </section>
 </template>
 
 <script>
+import VbmSlider from '@/components/Slider';
 export default {
+  components: {
+    VbmSlider
+  },
 }
 </script>
 

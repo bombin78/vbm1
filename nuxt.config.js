@@ -23,12 +23,17 @@ module.exports = {
   ** Global CSS
   */
   css: [
+      '@/plugins/gallery-master/css/blueimp-gallery.css',
       '@/assets/scss/style.scss',
   ],
   /*
   ** Plugins to load before mounting the App
   */
   plugins: [
+    { src: '~/plugins/jquery/jquery-1.11.2.min.js', mode: 'client' },
+    { src: '~/plugins/gallery-master/js/jquery.blueimp-gallery.min.js', mode: 'client' },
+    { src: '~/plugins/nivo-slider/jquery.nivo.slider.js', mode: 'client' },
+    { src: '~/plugins/init-nivo-slider.js'}
   ],
   /*
   ** Nuxt.js dev-modules

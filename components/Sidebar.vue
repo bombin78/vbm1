@@ -1,14 +1,14 @@
 <template>
-  <aside class='sidebar-container'>
-	   <div class='sidebar-container__block sidebar'>
-      <h2 class = 'sidebar__title'>Разделы</h2>
-      <ul class = 'sidebar__sidebar-menu sidebar-menu'>
+  <aside class="sidebar-container">
+	   <div class="sidebar-container__block sidebar">
+      <h2 class = "sidebar__title">Разделы</h2>
+      <ul class = "sidebar__sidebar-menu sidebar-menu">
         <li
-          class = 'sidebar-menu__item'
+          class = "sidebar-menu__item"
           v-for="item of list"
           :key="item.id">
 
-          <div class = 'sidebar-menu__block-link'>
+          <div class = "sidebar-menu__block-link">
             <nuxt-link
               no-prefetch
               active-class="_active"
