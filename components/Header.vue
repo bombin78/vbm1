@@ -2,7 +2,9 @@
   <header class="header">
   	<div class="header__block">
   		<div class="header__block-control control-panel">
-  			<a class="control-panel__logo" href="/"><b>{{nameCompany}}</b></a>
+            <nuxt-link no-prefetch class="control-panel__logo" to="/">
+              <b>{{nameCompany}}</b>
+            </nuxt-link>
   			<!-- главное меню -->
         <nav class="control-panel__menu menu">
           <ul class = "menu__list">

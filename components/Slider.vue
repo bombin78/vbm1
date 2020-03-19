@@ -15,7 +15,7 @@
 <script>
 export default {
   mounted () {
-    this.$initNivoSlider();
+  	$('#slider').nivoSlider({controlNav: false});
   },
   data() {
     return {
