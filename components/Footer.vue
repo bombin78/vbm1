@@ -1,11 +1,11 @@
 <template>
   <footer class="footer">
   	<div class="footer__company">
-      {{copyright}}&nbsp;&nbsp;{{nameCompany}}<br>
-      e-mail: {{$eMail}}
+      <span v-html="copyright"></span>&nbsp;&nbsp;
+      {{nameCompany}}<br>e-mail: {{eMail}}
     </div>
     <div class="footer__location">
-      {{location}}
+      <span v-html="location"></span>
     </div>
     <div class="footer__phones">
       {{numPhone1}}<br>
@@ -23,7 +23,7 @@ export default {
       numPhone2: '',
       eMail: 'info@vbm1.ru',
       location: 'Тверская обл., г.Бологое,<br>ул.Кирпичная, д.1А., офис.1',
-      copyright: '&copy; 2019',
+      copyright: '&copy; 2020',
     };
   },
 }
