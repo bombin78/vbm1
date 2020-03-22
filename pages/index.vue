@@ -16,6 +16,9 @@
 <script>
 import VbmSlider from '@/components/Slider';
 export default {
+  head: {
+    title: 'Главная',
+  },
   components: {
     VbmSlider
   },
@@ -25,6 +28,7 @@ export default {
 <style lang="scss" scoped>
 @import '@/assets/scss/utils/_variables.scss';
 @import '@/assets/scss/utils/_mixins.scss';
+
 .page {
 	@include main-content();
 
