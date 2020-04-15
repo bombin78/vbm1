@@ -197,6 +197,14 @@
 
 </template>
 
+<script>
+export default {
+  head: {
+    title: 'Изготовление новых машин МС-1Г.2',
+  },
+}
+</script>
+
 <style lang="scss" scoped>
 @import '@/assets/scss/utils/_variables.scss';
 @import '@/assets/scss/utils/_mixins.scss';
