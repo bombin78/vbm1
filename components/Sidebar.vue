@@ -13,7 +13,7 @@
               no-prefetch
               active-class="_active"
               class="sidebar-menu__link"
-              to="`/${item.name}`">
+              :to="`/${item.name}`">
               {{item.title}}
             </nuxt-link>
           </div>
