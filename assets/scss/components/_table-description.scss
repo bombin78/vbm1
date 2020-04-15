@@ -1,46 +1,39 @@
-$borderTable : 1px solid $black;
-
+$borderTable: 1px solid $black;
 @mixin border-cell($padding) {
-	padding : $padding;
-	border  : $borderTable;
+  padding: $padding;
+  border: $borderTable;
 }
-
 //----------------------------------------
-
 .table-description {
-    margin-bottom  : 10px;
-    width          : 100%;
+  margin-bottom: 10px;
+  width: 100%;
+  border: $borderTable;
+  border-spacing: 0;
 
-    border         : $borderTable;
-    border-spacing : 0;
+  &__caption {
+    margin-bottom: 5px;
+    font-size: $fontSize + 2px;
+    text-align: center;
+  }
 
-    &__caption {
-        margin-bottom : 5px;
+  &__head {
+    background: $middleGray;
+  }
 
-        font-size     : $fontSize + 2px;
-        text-align    : center;
-    }
+  &__head-answer,
+  &__head-question {
+    @include border-cell(5px 10px);
+    font-weight: bold;
+  }
 
-    &__head {
-        background  : $middleGray;
-    }
+  &__body-label,
+  &__body-value {
+    @include border-cell(5px 10px);
+  }
 
-    &__head-question,
-    &__head-answer {
-        @include border-cell(5px 10px);
-
-        font-weight : bold;
-    }
-
-
-    &__body-label,
-    &__body-value {
-        @include border-cell(5px 10px);
-    }
-	&__foot-call {
-		@include border-cell(5px 10px);
-
-        color: $darkerGray;
-        font-size     : $fontSize - 1px;
-	}
+  &__foot-call {
+    @include border-cell(5px 10px);
+    color: $darkerGray;
+    font-size: $fontSize - 1px;
+  }
 }

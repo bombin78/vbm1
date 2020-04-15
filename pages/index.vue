@@ -12,7 +12,7 @@
 
     <vbm-slider class="page__slider"/>
   </section>
-  
+
 </template>
 
 <script>
