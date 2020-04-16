@@ -22,6 +22,11 @@
         <!-- /подвал сайта-->
       </div>
     </div>
+    <div class="modal-container">
+      <!-- модальное окно галереи -->
+        <vbm-gallery-modal />
+      <!-- /модальное окно галереи-->
+    </div>
   </div>
 </template>
 
@@ -29,15 +34,17 @@
 import VbmHeader from '@/components/Header';
 import VbmSidebar from '@/components/Sidebar';
 import VbmFooter from '@/components/Footer';
+import VbmGalleryModal from '@/components/GalleryModal';
 export default {
   components: {
     VbmHeader,
     VbmSidebar,
-    VbmFooter
+    VbmFooter,
+    VbmGalleryModal,
   },
   mounted () {
     // 1. Модуль главного меню
-    ;(function() {
+    (function() {
       var scrolledY = 0,
         topMenu = $('.header__block').offset().top;
 
