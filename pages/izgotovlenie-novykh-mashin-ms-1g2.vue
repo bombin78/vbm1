@@ -198,9 +198,27 @@
 </template>
 
 <script>
+import {SideMenu} from '@/assets/main';
+
 export default {
   head: {
     title: 'Изготовление новых машин МС-1Г.2',
+  },
+  mounted () {
+    const sideMenu = new SideMenu();
+		sideMenu.init();
+
+    $('.blueimp-links').on('click', function (event) {
+      event = event || window.event;
+      var target = event.target || event.srcElement,
+        link = target.src ? target.parentNode : target,
+        options = {index: link, event: event},
+        links = this.getElementsByTagName('a');
+      blueimp.Gallery(links, options);
+    });
+  },
+  beforeDestroy() {
+    $("html, body").animate({ scrollTop: 0 }, "fast");
   },
 }
 </script>

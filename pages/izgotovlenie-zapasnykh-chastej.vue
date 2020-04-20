@@ -5,13 +5,22 @@
   	<h2 class="page__content-title content-title">Изготовление запасных частей</h2>
 
   </section>
-  
+
 </template>
 
 <script>
+import {SideMenu} from '@/assets/main';
+
 export default {
   head: {
     title: 'Изготовление запасных частей',
+  },
+  mounted () {
+    const sideMenu = new SideMenu();
+		sideMenu.init();
+  },
+  beforeDestroy() {
+    $("html, body").animate({ scrollTop: 0 }, "fast");
   },
 }
 </script>

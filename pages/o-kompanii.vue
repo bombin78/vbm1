@@ -40,6 +40,7 @@
 		</dl>
 
 		<table class="page__photo-ms1g2-1 table-photo blueimp-links">
+			<tbody>
 			<tr class="table-photo__row">
 				<td class="table-photo__cell">
 					<a class="table-photo__cell-link" href="/images/about-company/big/ms1g2_1.jpg" title="Машина МС-1Г.2 - испытание">
@@ -52,6 +53,7 @@
 					</a>
 				</td>
 			</tr>
+			</tbody>
 		</table>
 
 		<p class="page__text">
@@ -61,6 +63,7 @@
 		</p>
 
 		<table class="page__photo-adm-mpt table-photo blueimp-links">
+			<tbody>
 			<tr class="table-photo__row">
 				<td class="table-photo__cell">
 					<a class="table-photo__cell-link" href="/images/about-company/big/adm.JPG" title="После ремонта - автомотриса АДМ">
@@ -73,6 +76,7 @@
 					</a>
 				</td>
 			</tr>
+		  </tbody>
 		</table>
 
 		<p class="page__text">
@@ -95,11 +99,16 @@
 </template>
 
 <script>
+import {SideMenu} from '@/assets/main';
+
 export default {
 	head: {
 	  title: 'О компании',
 	},
 	mounted () {
+    const sideMenu = new SideMenu();
+    sideMenu.init();
+
 		$('.blueimp-links').on('click', function (event) {
 			event = event || window.event;
 			var target = event.target || event.srcElement,
@@ -109,6 +118,9 @@ export default {
 			blueimp.Gallery(links, options);
 		});
 	},
+  beforeDestroy() {
+    $("html, body").animate({ scrollTop: 0 }, "fast");
+  },
 }
 </script>
 

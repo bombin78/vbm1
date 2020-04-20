@@ -1,5 +1,5 @@
 <template>
-  
+
   <section class="page">
 
   	<h2 class="page__content-title content-title">Продажа б/у железнодорожной техники</h2>
@@ -9,9 +9,18 @@
 </template>
 
 <script>
+import {SideMenu} from '@/assets/main';
+
 export default {
   head: {
     title: 'Продажа б/у железнодорожной техники',
+  },
+  mounted() {
+    const sideMenu = new SideMenu();
+    sideMenu.init();
+  },
+  beforeDestroy() {
+    $("html, body").animate({ scrollTop: 0 }, "fast");
   },
 }
 </script>

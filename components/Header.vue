@@ -23,7 +23,7 @@
                 Документы
               </nuxt-link>
             </li>
-            <li class = "menu__item">
+            <li class = "menu__item _end">
               <nuxt-link no-prefetch active-class="_active" class="menu__link" to="/kontakty">
                 Контакты
               </nuxt-link>

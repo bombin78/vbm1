@@ -29,6 +29,8 @@
 </template>
 
 <script>
+import {SideMenu} from '@/assets/main';
+
 export default {
   head: {
     title: 'Аренда ж.д.техники с экипажом и без него',
@@ -37,6 +39,13 @@ export default {
     return {
       eMail: 'info@vbm1.ru',
     };
+  },
+  mounted () {
+    const sideMenu = new SideMenu();
+    sideMenu.init();
+  },
+  beforeDestroy() {
+    $("html, body").animate({ scrollTop: 0 }, "fast");
   },
 }
 </script>

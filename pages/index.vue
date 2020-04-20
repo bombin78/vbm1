@@ -17,12 +17,21 @@
 
 <script>
 import VbmSlider from '@/components/Slider';
+import {SideMenu} from '@/assets/main';
+
 export default {
   head: {
     title: 'Главная',
   },
   components: {
     VbmSlider
+  },
+  mounted() {
+    const sideMenu = new SideMenu();
+    sideMenu.init();
+  },
+  beforeDestroy() {
+    $("html, body").animate({ scrollTop: 0 }, "fast");
   },
 }
 </script>

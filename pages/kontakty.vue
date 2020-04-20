@@ -1,5 +1,5 @@
 <template>
-    
+
   <section class="page">
 
     <h2 class="page__content-title content-title">Контакты</h2>
@@ -85,6 +85,8 @@
 </template>
 
 <script>
+import {SideMenu} from '@/assets/main';
+
 export default {
   head: {
     title: 'Контакты',
@@ -94,6 +96,13 @@ export default {
       numPhone: 'Тел.: +7 (920) 151-65-98',
       eMail: 'info@vbm1.ru',
     };
+  },
+  mounted() {
+    const sideMenu = new SideMenu();
+    sideMenu.init();
+  },
+  beforeDestroy() {
+    $("html, body").animate({ scrollTop: 0 }, "fast");
   },
 }
 </script>
