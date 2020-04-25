@@ -6,20 +6,40 @@
 
     <h3 class="page__title">Общество с ограниченной ответственностью «Вибробурмашина»</h3>
 
-    <dl class="page__company-name dtl">
-        <dt class="dtl__l">Сокращенное название:</dt>
-        <dd class="dtl__v"><strong>ООО «ВИБРОБУРМАШ»</strong></dd>
-    </dl>
+    <div class="page__base">
 
-    <dl class="page__dtl dtl">
-        <dt class="dtl__l">Генеральный директор:</dt>
-        <dd class="dtl__v">Аверин Михаил Борисович</dd>
-    </dl>
+      <img class="page__img-workshop" alt="Цех ремонта" src="/images/contacts/workshop.jpg">
 
-    <dl class="page__dtl dtl">
-        <dt class="dtl__l">Главный бухгалтер:</dt>
-        <dd class="dtl__v">Игнатьева Ирина Владимировна</dd>
-    </dl>
+      <dl class="page__company-name dtl">
+          <dt class="dtl__l">Сокращенное название:</dt>
+          <dd class="dtl__v"><strong>ООО «ВИБРОБУРМАШ»</strong></dd>
+      </dl>
+
+      <dl class="page__dtl dtl">
+          <dt class="dtl__l">Генеральный директор:</dt>
+          <dd class="dtl__v">Аверин Михаил Борисович</dd>
+      </dl>
+
+      <dl class="page__dtl dtl">
+          <dt class="dtl__l">Главный бухгалтер:</dt>
+          <dd class="dtl__v">Игнатьева Ирина Владимировна</dd>
+      </dl>
+
+      <dl class="page__dtl dtl">
+          <dt class="dtl__l">Тел.:</dt>
+          <dd class="dtl__v">{{numPhone}}</dd>
+      </dl>
+
+      <dl class="page__dtl dtl">
+          <dt class="dtl__l">E-mail:</dt>
+          <dd class="dtl__v">
+              <a class="email" :href="`mailto:${eMail}`">
+                  {{eMail}}
+              </a>
+          </dd>
+      </dl>
+
+    </div>
 
     <dl class="page__dtl dtl">
         <dt class="dtl__l">Юр.адрес:</dt>
@@ -31,28 +51,14 @@
         <dd class="dtl__v">171075, Тверская обл., Бологовский район, г.Бологое, ул.Кирпичная, д.1А., оф.1.</dd>
     </dl>
 
-    <dl class="page__dtl dtl">
+    <dl class="page__inn dtl">
         <dt class="dtl__l">ИНН:</dt>
         <dd class="dtl__v">6908018170</dd>
     </dl>
 
-    <dl class="page__dtl dtl">
+    <dl class="page__ogrn dtl">
         <dt class="dtl__l">ОГРН:</dt>
         <dd class="dtl__v">1196952001180</dd>
-    </dl>
-
-    <dl class="page__dtl dtl">
-        <dt class="dtl__l">Тел:</dt>
-        <dd class="dtl__v">{{numPhone}}</dd>
-    </dl>
-
-    <dl class="page__dtl dtl">
-        <dt class="dtl__l">E-mail:</dt>
-        <dd class="dtl__v">
-            <a class="email" :href="`mailto:${eMail}`">
-                {{eMail}}
-            </a>
-        </dd>
     </dl>
 
     <h3 class="page__title">Расположение на карте</h3>
@@ -93,7 +99,7 @@ export default {
   },
   data() {
     return {
-      numPhone: 'Тел.: +7 (920) 151-65-98',
+      numPhone: '+7 (920) 151-65-98',
       eMail: 'info@vbm1.ru',
     };
   },
@@ -116,8 +122,24 @@ export default {
 
 	&__title {
 		margin-top: 20px;
+
 		font-size: $fontSize + 2px;
 		font-weight: bold;
+	}
+
+  &__base {
+    margin: {
+      top: 25px;
+      bottom: 22px;
+    }
+  }
+
+  &__img-workshop {
+		float: left;
+		margin-right: 25px;
+    width: 164px;
+
+		outline : 2px solid $middleGray;
 	}
 
 	&__company-name.dtl,
@@ -141,6 +163,22 @@ export default {
 			}
 		}
 	}
+
+  &__inn.dtl,
+  &__ogrn.dtl {
+    display: inline-flex;
+    margin-top: 8px;
+
+    .dtl {
+      &__l {
+        margin-right: 5px;
+      }
+    }
+  }
+
+  &__inn.dtl {
+    margin-right: 15px;
+  }
 
 	&__map {
 		margin-top: 5px;
