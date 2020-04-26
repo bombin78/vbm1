@@ -64,8 +64,10 @@
     <h3 class="page__title">Расположение на карте</h3>
 
     <div class="page__map">
+      <client-only>
         <!-- Расположение компании на яндекс карте -->
         <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Azx4XsME5usvRafl7TBnSG1LV7h32iYB6&amp;width=620&amp;height=280&amp;lang=ru_RU&amp;scroll=true"></script>
+      </client-only>
     </div>
 
     <div class="schedule">
@@ -100,7 +102,7 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: 'Контактная информация, адреса, инн, огрн, расположение на карте' 
+        content: 'Контактная информация, адреса, инн, огрн, расположение на карте'
       }
     ],
   },
