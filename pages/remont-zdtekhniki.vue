@@ -237,6 +237,13 @@ import {SideMenu} from '@/assets/main';
 export default {
   head: {
     title: 'Ремонт ж.д.техники: МС, АВФ, АДМ, ж.д.кранов',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Железнодорожная техника прошедшая ремонт на нашем предприятии'
+      }
+    ],
   },
   mounted() {
     const sideMenu = new SideMenu();

@@ -8,7 +8,7 @@
 
 			<li class="documents-review_list">
 
-				<h3 class="documents-review__title">1. Патенты и сертификаты</h3>
+				<h3 class="documents-review__title">Патенты, сертификаты и свидетельства</h3>
 
 				<ul class="documents-review__list document-pages">
 
@@ -46,6 +46,13 @@ import {SideMenu} from '@/assets/main';
 export default {
   head: {
     title: 'Документы',
+	meta: [
+	  {
+		hid: 'description',
+		name: 'description',
+		content: 'Свидетельство о присвоении условного номера для клеймения ССПС, cертификаты и патенты'
+	  }
+	],
   },
   mounted () {
 		const sideMenu = new SideMenu();

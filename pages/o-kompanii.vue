@@ -104,6 +104,13 @@ import {SideMenu} from '@/assets/main';
 export default {
 	head: {
 	  title: 'О компании',
+	  meta: [
+		{
+		  hid: 'description',
+		  name: 'description',
+		  content: 'Компания ООО "Вибробурмаш" занимается разработкой, изготовлением и ремонтом специальных машин на железнодорожном ходу и сменным навесным оборудованием к ним. Также вы можете заказать комплексы на автомобильном ходу.'
+		}
+	  ],
 	},
 	mounted () {
     const sideMenu = new SideMenu();

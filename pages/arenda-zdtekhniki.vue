@@ -34,6 +34,13 @@ import {SideMenu} from '@/assets/main';
 export default {
   head: {
     title: 'Аренда ж.д.техники с экипажом и без него',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Предоставляем железнодорожную технику в длительную аренду'
+      }
+    ],
   },
   data() {
     return {

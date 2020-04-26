@@ -22,6 +22,13 @@ import {SideMenu} from '@/assets/main';
 export default {
   head: {
     title: 'Главная',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Официальный сайт ООО "ВИБРОБУРМАШ" г.Бологое'
+      }
+    ],
   },
   components: {
     VbmSlider

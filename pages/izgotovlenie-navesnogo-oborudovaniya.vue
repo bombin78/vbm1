@@ -336,6 +336,13 @@ import {SideMenu} from '@/assets/main';
 export default {
   head: {
     title: 'Изготовление навесного оборудования',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Производство навесного оборудования для выпускаемой техники: бурового, пневмоударного и т.д.'
+      }
+    ],
   },
   mounted() {
     const sideMenu = new SideMenu();

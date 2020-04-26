@@ -203,6 +203,13 @@ import {SideMenu} from '@/assets/main';
 export default {
   head: {
     title: 'Изготовление новых машин МС-1Г.2',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Производство железнодорожной техники (МС-1Г.2) для вибропогружения железобетонных свай и фундаментов опор контактной сети'
+      }
+    ],
   },
   mounted () {
     const sideMenu = new SideMenu();

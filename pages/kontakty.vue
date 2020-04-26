@@ -96,6 +96,13 @@ import {SideMenu} from '@/assets/main';
 export default {
   head: {
     title: 'Контакты',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Контактная информация, адреса, инн, огрн, расположение на карте' 
+      }
+    ],
   },
   data() {
     return {
