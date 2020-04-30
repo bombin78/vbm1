@@ -69,8 +69,17 @@
 
     <div class="page__map">
       <client-only>
-        <!-- Расположение компании на яндекс карте -->
-        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Azx4XsME5usvRafl7TBnSG1LV7h32iYB6&amp;width=620&amp;height=280&amp;lang=ru_RU&amp;scroll=true"></script>
+        <yandex-map
+          :zoom="15"
+          :coords="coords"
+          :settings="settings">
+          <ymap-marker
+            marker-id="1"
+            marker-type="placemark"
+            :coords="coords"
+            :balloon-template="balloonTemplate">
+          </ymap-marker>
+        </yandex-map>
       </client-only>
     </div>
 
@@ -114,7 +123,22 @@ export default {
     return {
       numPhone: '+7 (920) 151-65-98',
       eMail: 'info@vbm1.ru',
+      settings: {
+        apiKey: '5215a7bd-2a74-40d6-a651-8edc1bfc7a2d',
+        lang: 'ru_RU',
+        coordorder: 'latlong',
+        version: '2.1'
+      },
+      coords: [57.885435, 34.087535],
     };
+  },
+  computed: {
+    balloonTemplate() {
+      return `
+        <h1 style="font-weight:bold">OOO "Вибробурмаш"</h1>
+        <p>Тел.: +7 (920) 151-65-98</p>
+      `
+    }
   },
   mounted() {
     const sideMenu = new SideMenu();
@@ -208,6 +232,10 @@ export default {
 		height: 280px;
 		width: 620px;
 		border: 2px solid $lightGray;
+      .ymap-container {
+        width: 100%;
+        height: 100%;
+      }
 	}
 }
 

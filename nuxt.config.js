@@ -33,6 +33,7 @@ module.exports = {
     { src: '~/plugins/jquery/jquery-1.11.2.min.js', mode: 'client'},
     { src: '~/plugins/gallery-master/js/jquery.blueimp-gallery.min.js', mode: 'client'},
     { src: '~/plugins/nivo-slider/jquery.nivo.slider.js', mode: 'client'},
+    { src: '~/plugins/ymapPlugin.js',  mode: 'client' },
   ],
   /*
   ** Nuxt.js dev-modules
