@@ -1,3 +1,4 @@
+const webpack = require('webpack');
 
 module.exports = {
   mode: 'universal',
@@ -30,7 +31,6 @@ module.exports = {
   ** Plugins to load before mounting the App
   */
   plugins: [
-    { src: '~/plugins/jquery/jquery-1.11.2.min.js', mode: 'client'},
     { src: '~/plugins/gallery-master/js/jquery.blueimp-gallery.min.js', mode: 'client'},
     { src: '~/plugins/nivo-slider/jquery.nivo.slider.js', mode: 'client'},
     { src: '~/plugins/ymapPlugin.js',  mode: 'client' },
@@ -57,10 +57,13 @@ module.exports = {
   ** Build configuration
   */
   build: {
-    /*
-    ** You can extend webpack config here
-    */
-    extend (config, ctx) {
-    }
+    plugins: [
+      new webpack.ProvidePlugin({
+        $: 'jquery',
+        jQuery: 'jquery',
+        'window.jQuery': 'jquery',
+      })
+    ],
+    extend (config,ctx) {}
   }
 }
