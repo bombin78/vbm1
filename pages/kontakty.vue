@@ -37,7 +37,7 @@
 
     <div class="page__block">
 
-      <img class="page__img-workshop" alt="Цех ремонта" src="/images/contacts/workshop.jpg">
+      <img class="page__img-workshop" alt="Цех ремонта" src="/images/contacts/workshop-vbm.jpg">
 
       <dl class="page__dtl dtl">
           <dt class="dtl__l">Юр.адрес:</dt>

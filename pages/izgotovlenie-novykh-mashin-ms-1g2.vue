@@ -9,8 +9,15 @@
   		<tbody>
   		<tr class="table-photo__row">
   			<td class="table-photo__cell">
-  				<a class="table-photo__cell-link" href="/images/make-ms1g2/big/ms1g2.jpg" title="Машина МС-1Г.2">
-  					<img class="table-photo__cell-img" alt="Машина МС-1Г.2" src="/images/make-ms1g2/ms1g2.jpg">
+  				<a
+            class="table-photo__cell-link"
+            href="/images/make-ms1g2/big/ms1g2.jpg"
+            title="Машина МС-1Г.2"
+            data-gallery>
+  					<img
+              class="table-photo__cell-img"
+              alt="Машина МС-1Г.2"
+              src="/images/make-ms1g2/ms1g2.jpg">
   				</a>
   			</td>
   		</tr>

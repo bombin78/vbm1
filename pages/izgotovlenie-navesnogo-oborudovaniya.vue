@@ -14,8 +14,15 @@
 
         <div class="page__block blueimp-links">
 
-          <a class="page__img-link" href="/images/make-hinged/big/drilling-equipment.jpg" title="Буровое оборудование для устройства лидерных скважин">
-            <img class="page__img" alt="Буровое оборудование" src="/images/make-hinged/drilling-equipment.jpg">
+          <a
+            class="page__img-link"
+            href="/images/make-hinged/big/drilling-equipment.jpg"
+            title="Буровое оборудование для устройства лидерных скважин"
+            data-gallery>
+            <img
+              class="page__img"
+              alt="Буровое оборудование"
+              src="/images/make-hinged/drilling-equipment.jpg">
           </a>
 
           <p class="page__text">
@@ -143,8 +150,15 @@
 
         <div class="page__block blueimp-links">
 
-          <a class="page__img-link" href="/images/make-hinged/big/pneumatic-impact-equipment.jpg" title="Пневмоударное оборудование для бурения скальных грунтов (диам. 400 мм)">
-            <img class="page__img" alt="Пневмоударное оборудование" src="/images/make-hinged/pneumatic-impact-equipment.jpg">
+          <a
+            class="page__img-link"
+            href="/images/make-hinged/big/pneumatic-impact-equipment.jpg"
+            title="Пневмоударное оборудование для бурения скальных грунтов (диам. 400 мм)"
+            data-gallery>
+            <img
+              class="page__img"
+              alt="Пневмоударное оборудование"
+              src="/images/make-hinged/pneumatic-impact-equipment.jpg">
           </a>
 
           <p class="page__text">
