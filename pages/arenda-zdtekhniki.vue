@@ -2,17 +2,17 @@
 
   <section class="page">
 
-  	<h2 class="page__content-title content-title">Аренда ж.д.техники с экипажом и без него</h2>
+  	<h2 class="page__content-title content-title">Аренда ж.д.техники (ССПС) с экипажом и без него</h2>
 
     <p class="page__text">
       Предоставляем железнодорожную технику (АДМ-1, МПТ-6, АДМс, АДМ-СКМ, КЖС-16, АВФ-1)
       в длительную аренду как с экипажем так и без него.
     </p>
 
-    <h3 class="page__title">Условия аренды</h3>
+    <h3 class="page__title">Условия аренды специального самоходного подвижного состава</h3>
 
     <dl class="page__dtl dtl">
-      <dt class="dtl__l">Срок аренды:</dt>
+      <dt class="dtl__l">Срок аренды ССПС:</dt>
       <dd class="dtl__v">от двух месяцев.</dd>
     </dl>
 
@@ -21,82 +21,161 @@
       <dd class="dtl__v">предоплата 100% за один месяц</dd>
     </dl>
 
-    <ul class="page__review review blueimp-links">
 
-      <li class="review__list">
+    <div class="review">
 
-        <h3 class="review__title">Автомотриса дизельная монтажная АДМ-1 №577</h3>
+      <h3 class="review__title">Мы предлагаем:</h3>
 
-        <dl class="review__dtl dtl">
-          <dt class="dtl__l">Год выпуска:</dt>
-          <dd class="dtl__v">2000г</dd>
-        </dl>
+      <ul class="review__list blueimp-links">
 
-        <dl class="review__dtl dtl">
-          <dt class="dtl__l">Капитальный ремонт:</dt>
-          <dd class="dtl__v">КР-1 05.2020г</dd>
-        </dl>
+        <li class="review__item">
 
-        <dl class="review__dtl dtl">
-          <dt class="dtl__l">Грузоподъемность крана:</dt>
-          <dd class="dtl__v">3.2т</dd>
-        </dl>
+          <h4 class="review__subtitle">
+            1. Автомотриса дизельная монтажная АДМ-1 №577
+          </h4>
 
-        <dl class="review__dtl dtl">
-          <dt class="dtl__l">Грузоподъемность монтажной площадки:</dt>
-          <dd class="dtl__v">500кг</dd>
-        </dl>
+          <dl class="review__dtl dtl">
+            <dt class="dtl__l">Год выпуска:</dt>
+            <dd class="dtl__v">2000г</dd>
+          </dl>
 
-        <table class="review__photo-adm1-557 table-photo blueimp-links">
-    			<tbody>
-    			<tr class="table-photo__row">
+          <dl class="review__dtl dtl">
+            <dt class="dtl__l">Капитальный ремонт:</dt>
+            <dd class="dtl__v">КР-1 05.2020г</dd>
+          </dl>
 
-    				<td class="table-photo__cell">
-              <a
-                class="table-photo__cell-link"
-                href="/images/arenda-zdtekhniki/big/ADM1-557-1.jpeg"
-                title="Автомотриса АДМ-1-553"
-                data-gallery>
-                <img
-                  class="table-photo__cell-img"
-                  src="/images/arenda-zdtekhniki/ADM1-557-1.jpeg"
-                  alt="Автомотриса АДМ-1-553: вид сбоку">
-              </a>
-    				</td>
+          <dl class="review__dtl dtl">
+            <dt class="dtl__l">Грузоподъемность крана:</dt>
+            <dd class="dtl__v">3.2т</dd>
+          </dl>
 
-    				<td class="table-photo__cell">
-              <a
-                class="table-photo__cell-link"
-                href="/images/arenda-zdtekhniki/big/ADM1-557-2.jpeg"
-                title="Автомотриса АДМ-1-553: пульт машиниста"
-                data-gallery>
-                <img
-                  class="table-photo__cell-img"
-                  src="/images/arenda-zdtekhniki/ADM1-557-2.jpeg"
-                  alt="Автомотриса АДМ-1-553: пульт машиниста">
-              </a>
-    				</td>
+          <dl class="review__dtl dtl">
+            <dt class="dtl__l">Грузоподъемность монтажной площадки:</dt>
+            <dd class="dtl__v">500кг</dd>
+          </dl>
 
-            <td class="table-photo__cell">
-              <a
-                class="table-photo__cell-link"
-                href="/images/arenda-zdtekhniki/big/ADM1-557-3.jpeg"
-                title="Автомотриса АДМ-1-553: надписи"
-                data-gallery>
-                <img
-                  class="table-photo__cell-img"
-                  src="/images/arenda-zdtekhniki/ADM1-557-3.jpeg"
-                  alt="Автомотриса АДМ-1-553: ходовая часть, надписи">
-              </a>
-    				</td>
+          <table class="review__photo-adm1-557 table-photo">
+      			<tbody>
+      			<tr class="table-photo__row">
 
-    			</tr>
-    			</tbody>
-    		</table>
+      				<td class="table-photo__cell photo">
+                <a
+                  class="table-photo__cell-link photo__link"
+                  href="/images/arenda-zdtekhniki/big/ADM1-557-1.jpeg"
+                  title="Автомотриса АДМ-1-553"
+                  data-gallery>
+                  <img
+                    class="table-photo__cell-img photo__img"
+                    src="/images/arenda-zdtekhniki/ADM1-557-1.jpeg"
+                    alt="Автомотриса АДМ-1-553: вид сбоку">
+                </a>
+      				</td>
 
-      </li>
+      				<td class="table-photo__cell photo">
+                <a
+                  class="table-photo__cell-link photo__link"
+                  href="/images/arenda-zdtekhniki/big/ADM1-557-2.jpeg"
+                  title="Автомотриса АДМ-1-553: пульт машиниста"
+                  data-gallery>
+                  <img
+                    class="table-photo__cell-img photo__img"
+                    src="/images/arenda-zdtekhniki/ADM1-557-2.jpeg"
+                    alt="Автомотриса АДМ-1-553: пульт машиниста">
+                </a>
+      				</td>
 
-    </ul>
+              <td class="table-photo__cell photo">
+                <a
+                  class="table-photo__cell-link photo__link"
+                  href="/images/arenda-zdtekhniki/big/ADM1-557-3.jpeg"
+                  title="Автомотриса АДМ-1-553: надписи"
+                  data-gallery>
+                  <img
+                    class="table-photo__cell-img photo__img"
+                    src="/images/arenda-zdtekhniki/ADM1-557-3.jpeg"
+                    alt="Автомотриса АДМ-1-553: ходовая часть, надписи">
+                </a>
+      				</td>
+
+      			</tr>
+      			</tbody>
+      		</table>
+
+        </li>
+
+        <li class="review__item">
+
+          <h4 class="review__subtitle">
+            2. Кран на железнодорожном ходу КЖС-16 №044
+          </h4>
+
+          <dl class="review__dtl dtl">
+            <dt class="dtl__l">Год выпуска:</dt>
+            <dd class="dtl__v">1999г (продлен до 2026г)</dd>
+          </dl>
+
+          <dl class="review__dtl dtl">
+            <dt class="dtl__l">Капитальный ремонт:</dt>
+            <dd class="dtl__v">КР-1 09.2020г</dd>
+          </dl>
+
+          <dl class="review__dtl dtl">
+            <dt class="dtl__l">Грузоподъемность крана:</dt>
+            <dd class="dtl__v">16т</dd>
+          </dl>
+
+          <table class="review__photo-kzs16-044 table-photo">
+      			<tbody>
+      			<tr class="table-photo__row">
+
+      				<td class="table-photo__cell photo">
+                <a
+                  class="table-photo__cell-link photo__link"
+                  href="/images/arenda-zdtekhniki/big/KZS1-044-1.jpeg"
+                  title="Железнодорожный кран КЖС-16 №044"
+                  data-gallery>
+                  <img
+                    class="table-photo__cell-img photo__img"
+                    src="/images/arenda-zdtekhniki/KZS1-044-1.jpeg"
+                    alt="Железнодорожный кран КЖС-16 №044">
+                </a>
+      				</td>
+
+      				<td class="table-photo__cell photo">
+                <a
+                  class="table-photo__cell-link photo__link"
+                  href="/images/arenda-zdtekhniki/big/KZS1-044-2.jpeg"
+                  title="Ж.д.кран КЖС-16 №044 с поднятой стрелой"
+                  data-gallery>
+                  <img
+                    class="table-photo__cell-img photo__img"
+                    src="/images/arenda-zdtekhniki/KZS1-044-2.jpeg"
+                    alt="Ж.д.кран КЖС-16 №044 с поднятой стрелой">
+                </a>
+      				</td>
+
+              <td class="table-photo__cell photo">
+                <a
+                  class="table-photo__cell-link photo__link"
+                  href="/images/arenda-zdtekhniki/big/KZS1-044-3.jpeg"
+                  title="Ж.д.кран КЖС-16 №044 в транспортном положении"
+                  data-gallery>
+                  <img
+                    class="table-photo__cell-img photo__img"
+                    src="/images/arenda-zdtekhniki/KZS1-044-3.jpeg"
+                    alt="Ж.д.кран КЖС-16 №044 в транспортном положении">
+                </a>
+              </td>
+
+      			</tr>
+      			</tbody>
+      		</table>
+
+        </li>
+
+      </ul>
+
+    </div>
 
     <p class="page__text-line">
       По вопросам аренды ж/д техники заявку направлять на электронную почту:
@@ -112,12 +191,12 @@ import {SideMenu} from '@/assets/main';
 
 export default {
   head: {
-    title: 'Аренда ж.д.техники с экипажом и без него',
+    title: 'Аренда ж.д.техники (ССПС) с экипажом и без него',
     meta: [
       {
         hid: 'description',
         name: 'description',
-        content: 'Предоставляем железнодорожную технику в длительную аренду'
+        content: 'Предоставляем железнодорожную технику (ССПС) в длительную аренду'
       }
     ],
   },
@@ -192,11 +271,24 @@ export default {
   margin: 15px 0;
 
 	&__title {
-		padding     : 10px 0;
+		padding-top : 10px;
 
 		font-size   : $fontSize + 2px;
 		font-weight : bold;
 	}
+
+  &__subtitle {
+    padding     : 10px 0;
+
+    font-size   : $fontSize + 1px;
+    font-weight : bold;
+  }
+
+  &__list {
+    &:not(:nth-last-of-type(1)){
+      margin-top: 15px;
+    }
+  }
 
   &__dtl.dtl {
     display: flex;
@@ -208,15 +300,45 @@ export default {
       }
     }
   }
-}
 
-.table-photo {
-  margin-top: 12px;
+  &__photo-adm1-557,
+  &__photo-kzs16-044 {
+    margin-top: 12px;
+  }
 
-  &__cell,
-  &__cell-link,
-  &__cell-img {
-    width: 188px;
+  &__photo-adm1-557 {
+
+    .photo {
+      width: 207px;
+      &__link,
+      &__img {
+        width: 188px;
+      }
+    }
+  }
+
+  &__photo-kzs16-044 {
+
+    .photo:nth-of-type(1),
+    .photo:nth-of-type(2) {
+      width: 168px;
+      .photo {
+        &__link,
+        &__img {
+          width: 150px;
+        }
+      }
+    }
+
+    .photo:nth-of-type(3) {
+      width: 284px;
+      .photo {
+        &__link,
+        &__img {
+          width: 266px;
+        }
+      }
+    }
   }
 }
 
