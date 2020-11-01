@@ -4,33 +4,13 @@
 
   	<h2 class="page__content-title content-title">Аренда ж.д.техники (ССПС) с экипажом и без него</h2>
 
-    <p class="page__text">
-      Предоставляем железнодорожную технику (АДМ-1, МПТ-6, АДМс, АДМ-СКМ, КЖС-16, АВФ-1)
-      в длительную аренду как с экипажем так и без него.
-    </p>
-
-    <h3 class="page__title">Условия аренды специального самоходного подвижного состава</h3>
-
-    <dl class="page__dtl dtl">
-      <dt class="dtl__l">Срок аренды ССПС:</dt>
-      <dd class="dtl__v">от двух месяцев.</dd>
-    </dl>
-
-    <dl class="page__dtl dtl">
-      <dt class="dtl__l">Условия оплаты:</dt>
-      <dd class="dtl__v">предоплата 100% за один месяц</dd>
-    </dl>
-
-
     <div class="review">
-
-      <h3 class="review__title">Мы предлагаем:</h3>
 
       <ul class="review__list blueimp-links">
 
         <li class="review__item">
 
-          <h4 class="review__subtitle">
+          <h4 class="review__title">
             1. Автомотриса дизельная монтажная АДМ-1 №577
           </h4>
 
@@ -105,7 +85,7 @@
 
         <li class="review__item">
 
-          <h4 class="review__subtitle">
+          <h4 class="review__title">
             2. Кран на железнодорожном ходу КЖС-16 №044
           </h4>
 
@@ -239,30 +219,11 @@ export default {
     font-weight : bold;
   }
 
-  &__text {
-    padding     : 10px 0;
-
-    line-height : 1.3;
-    text-align  : justify;
-    text-indent : 25px;
-  }
-
   &__text-line {
     padding     : 10px 0;
 
     line-height : 1.3;
     text-align  : justify;
-  }
-
-  &__dtl.dtl {
-    display: flex;
-    padding-left: 10px;
-
-    .dtl {
-      &__v {
-        margin-left: 5px;
-      }
-    }
   }
 }
 
@@ -270,17 +231,10 @@ export default {
 
   margin: 15px 0;
 
-	&__title {
-		padding-top : 10px;
-
-		font-size   : $fontSize + 2px;
-		font-weight : bold;
-	}
-
-  &__subtitle {
+  &__title {
     padding     : 10px 0;
 
-    font-size   : $fontSize + 1px;
+    font-size   : $fontSize + 2px;
     font-weight : bold;
   }
 
