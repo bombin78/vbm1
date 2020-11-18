@@ -111,12 +111,12 @@
       				<td class="table-photo__cell photo">
                 <a
                   class="table-photo__cell-link photo__link"
-                  href="/images/arenda-zdtekhniki/big/KZS1-044-1.jpeg"
+                  href="/images/arenda-zdtekhniki/big/KZS16-044-1.jpeg"
                   title="Железнодорожный кран КЖС-16 №044"
                   data-gallery>
                   <img
                     class="table-photo__cell-img photo__img"
-                    src="/images/arenda-zdtekhniki/KZS1-044-1.jpeg"
+                    src="/images/arenda-zdtekhniki/KZS16-044-1.jpeg"
                     alt="Железнодорожный кран КЖС-16 №044">
                 </a>
       				</td>
@@ -124,12 +124,12 @@
       				<td class="table-photo__cell photo">
                 <a
                   class="table-photo__cell-link photo__link"
-                  href="/images/arenda-zdtekhniki/big/KZS1-044-2.jpeg"
+                  href="/images/arenda-zdtekhniki/big/KZS16-044-2.jpeg"
                   title="Ж.д.кран КЖС-16 №044 с поднятой стрелой"
                   data-gallery>
                   <img
                     class="table-photo__cell-img photo__img"
-                    src="/images/arenda-zdtekhniki/KZS1-044-2.jpeg"
+                    src="/images/arenda-zdtekhniki/KZS16-044-2.jpeg"
                     alt="Ж.д.кран КЖС-16 №044 с поднятой стрелой">
                 </a>
       				</td>
@@ -137,13 +137,83 @@
               <td class="table-photo__cell photo">
                 <a
                   class="table-photo__cell-link photo__link"
-                  href="/images/arenda-zdtekhniki/big/KZS1-044-3.jpeg"
+                  href="/images/arenda-zdtekhniki/big/KZS16-044-3.jpeg"
                   title="Ж.д.кран КЖС-16 №044 в транспортном положении"
                   data-gallery>
                   <img
                     class="table-photo__cell-img photo__img"
-                    src="/images/arenda-zdtekhniki/KZS1-044-3.jpeg"
+                    src="/images/arenda-zdtekhniki/KZS16-044-3.jpeg"
                     alt="Ж.д.кран КЖС-16 №044 в транспортном положении">
+                </a>
+              </td>
+
+      			</tr>
+      			</tbody>
+      		</table>
+
+        </li>
+
+        <li class="review__item">
+
+          <h4 class="review__title">
+            3. Кран на железнодорожном ходу КЖС-16 №72
+          </h4>
+
+          <dl class="review__dtl dtl">
+            <dt class="dtl__l">Год выпуска:</dt>
+            <dd class="dtl__v">2001г (продлен до 2026г)</dd>
+          </dl>
+
+          <dl class="review__dtl dtl">
+            <dt class="dtl__l">Капитальный ремонт:</dt>
+            <dd class="dtl__v">КР-1 06.11.2020г</dd>
+          </dl>
+
+          <dl class="review__dtl dtl">
+            <dt class="dtl__l">Грузоподъемность крана:</dt>
+            <dd class="dtl__v">16т</dd>
+          </dl>
+
+          <table class="review__photo-kzs16-072 table-photo">
+      			<tbody>
+      			<tr class="table-photo__row">
+
+      				<td class="table-photo__cell photo">
+                <a
+                  class="table-photo__cell-link photo__link"
+                  href="/images/arenda-zdtekhniki/big/KZS16-072-1.jpeg"
+                  title="Ж/д кран КЖС-16 №72 в транспортном положении"
+                  data-gallery>
+                  <img
+                    class="table-photo__cell-img photo__img"
+                    src="/images/arenda-zdtekhniki/KZS16-072-1.jpeg"
+                    alt="Ж/д кран КЖС-16 №72 в транспортном положении">
+                </a>
+      				</td>
+
+      				<td class="table-photo__cell photo">
+                <a
+                  class="table-photo__cell-link photo__link"
+                  href="/images/arenda-zdtekhniki/big/KZS16-072-2.jpeg"
+                  title="Ж/д кран КЖС-16 №72: вид со стороны кабины"
+                  data-gallery>
+                  <img
+                    class="table-photo__cell-img photo__img"
+                    src="/images/arenda-zdtekhniki/KZS16-072-2.jpeg"
+                    alt="Ж/д кран КЖС-16 №72: вид со стороны кабины">
+                </a>
+      				</td>
+
+              <td class="table-photo__cell photo">
+                <a
+                  class="table-photo__cell-link photo__link"
+                  href="/images/arenda-zdtekhniki/big/KZS16-072-3.jpeg"
+                  title="Железнодорожный кран КЖС-16 №72"
+                  data-gallery>
+                  <img
+                    class="table-photo__cell-img photo__img"
+                    src="/images/arenda-zdtekhniki/KZS16-072-3.jpeg"
+                    alt="Железнодорожный кран КЖС-16 №72">
                 </a>
               </td>
 
@@ -220,7 +290,7 @@ export default {
   }
 
   &__text-line {
-    padding     : 10px 0;
+    padding: 5px 0 10px 0;
 
     line-height : 1.3;
     text-align  : justify;
@@ -256,11 +326,13 @@ export default {
   }
 
   &__photo-adm1-557,
-  &__photo-kzs16-044 {
-    margin-top: 12px;
+  &__photo-kzs16-044,
+  &__photo-kzs16-072 {
+    margin: 12px 0 9px 0;
   }
 
-  &__photo-adm1-557 {
+  &__photo-adm1-557,
+  &__photo-kzs16-072 {
 
     .photo {
       width: 207px;
