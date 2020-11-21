@@ -195,12 +195,12 @@
                 <a
                   class="table-photo__cell-link photo__link"
                   href="/images/arenda-zdtekhniki/big/KZS16-072-2.jpeg"
-                  title="Ж/д кран КЖС-16 №72: вид со стороны кабины"
+                  title="Ж/д кран КЖС-16 №72 в транспортном положении"
                   data-gallery>
                   <img
                     class="table-photo__cell-img photo__img"
                     src="/images/arenda-zdtekhniki/KZS16-072-2.jpeg"
-                    alt="Ж/д кран КЖС-16 №72: вид со стороны кабины">
+                    alt="Ж/д кран КЖС-16 №72 в транспортном положении">
                 </a>
       				</td>
 
@@ -208,12 +208,12 @@
                 <a
                   class="table-photo__cell-link photo__link"
                   href="/images/arenda-zdtekhniki/big/KZS16-072-3.jpeg"
-                  title="Железнодорожный кран КЖС-16 №72"
+                  title="Железнодорожный кран КЖС-16 №72 в транспортном положении"
                   data-gallery>
                   <img
                     class="table-photo__cell-img photo__img"
                     src="/images/arenda-zdtekhniki/KZS16-072-3.jpeg"
-                    alt="Железнодорожный кран КЖС-16 №72">
+                    alt="Железнодорожный кран КЖС-16 №72 в транспортном положении">
                 </a>
               </td>
 
