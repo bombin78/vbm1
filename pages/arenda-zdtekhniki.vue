@@ -227,8 +227,13 @@
 
     </div>
 
-    <p class="page__text-line">
-      По вопросам аренды ж/д техники заявку направлять на электронную почту:
+    <p class="page__text">
+      Вся техника проходит ремонт и обслуживание на нашем предприятии. Специалисты ООО&nbsp;"Вибробурмаш" имеют большой опыт и
+      гарантируют исправную работу каждого узла и агрегата железнодорожной техники на всем протяжении ее эксплуатации.
+    </p>
+
+    <p class="page__text">
+      По вопросам аренды ССПС (специального самоходного подвижного состава) заявку направлять на электронную почту:
       <a class="email" :href="`mailto:${eMail}`">{{eMail}}</a>.
     </p>
 
@@ -289,17 +294,17 @@ export default {
     font-weight : bold;
   }
 
-  &__text-line {
-    padding: 5px 0 10px 0;
-
-    line-height : 1.3;
-    text-align  : justify;
+  &__text {
+    padding: 10px 0;
+    line-height: 1.3;
+    text-align: justify;
+    text-indent: 25px;
   }
 }
 
 .review {
 
-  margin: 15px 0;
+  margin-top: 15px;
 
   &__title {
     padding     : 10px 0;
