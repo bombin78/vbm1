@@ -97,7 +97,7 @@
             href="/images/about-company/big/mpt.JPG"
             title="После ремонта - автомотриса МПТ"
             data-gallery>
-						<img 
+						<img
               class="table-photo__cell-img"
               src="/images/about-company/mpt.JPG"
               alt="После ремонта - автомотриса МПТ">
@@ -156,6 +156,7 @@ export default {
   beforeDestroy() {
     $("html, body").animate({ scrollTop: 0 }, "fast");
   },
+  middleware: ['technical-works'],
 }
 </script>
 

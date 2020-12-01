@@ -40,6 +40,7 @@ export default {
   beforeDestroy() {
     $("html, body").animate({ scrollTop: 0 }, "fast");
   },
+  middleware: ['technical-works'],
 }
 </script>
 

@@ -1,4 +1,2 @@
 User-agent: *
-Disallow: /izgotovlenie-zapasnykh-chastej
-Disallow: /prodazha-zdtekhniki
-Sitemap: https://vbm1.ru/sitemap.xml
+Disallow: /

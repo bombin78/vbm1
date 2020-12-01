@@ -40,7 +40,7 @@
 
 					<li class="document-pages__item">
 						<a
-              class="document-pages__link" 
+              class="document-pages__link"
               href="/images/documents/big/707х1000_sert-2.jpg"
               title="Свидетельство о присвоении условного номера для клеймения ССПС"
               data-gallery>
@@ -91,6 +91,7 @@ export default {
   beforeDestroy() {
 	$("html, body").animate({ scrollTop: 0 }, "fast");
   },
+  middleware: ['technical-works'],
 }
 </script>
 
