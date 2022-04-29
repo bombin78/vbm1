@@ -21,7 +21,7 @@
 							<img
                 class="document-pages__img"
                 src="/images/documents/195х275_patent-192676.jpg"
-                alt="Патент на полезную мадель № 192676">
+                alt="Патент на полезную модель № 192676">
 						</a>
 					</li>
 
@@ -91,7 +91,7 @@ export default {
   beforeDestroy() {
 	$("html, body").animate({ scrollTop: 0 }, "fast");
   },
-  middleware: ['technical-works'],
+  // middleware: ['technical-works'],
 }
 </script>
 
